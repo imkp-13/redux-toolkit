@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import Button from "../../components/Button";
-import { deleteUser } from "./userSlice";
+import { deleteUser } from "../redux/userSlice";
 
 const UserList = () => {
   const dispatch = useDispatch();

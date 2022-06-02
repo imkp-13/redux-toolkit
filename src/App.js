@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
-import AddUser from "./features/users/AddUser";
-import EditUser from "./features/users/EditUser";
-import UserList from "./features/users/UserList";
+import AddUser from "./pages/AddUser";
+import EditUser from "./pages/EditUser";
+import UserList from "./pages/UserList";
 
 function App() {
   return (

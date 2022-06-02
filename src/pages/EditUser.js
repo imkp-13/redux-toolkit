@@ -1,8 +1,8 @@
 import { useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { useNavigate, useParams } from "react-router-dom"
-import Button from "../../components/Button"
-import TextField from "../../components/TextField"
+import Button from "../components/Button"
+import TextField from "../components/TextField"
 import { editUser } from "../redux/userSlice"
 
 const EditUser = () => {

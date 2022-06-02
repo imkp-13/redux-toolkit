@@ -2,8 +2,8 @@ import { useState } from "react"
 import { useDispatch } from "react-redux"
 import { useNavigate } from "react-router-dom"
 import { v4 as uuidv4 } from 'uuid';
-import Button from "../../components/Button"
-import TextField from "../../components/TextField"
+import Button from "../components/Button"
+import TextField from "../components/TextField"
 import { addUser } from "../redux/userSlice"
 
 const AddUser = () => {
